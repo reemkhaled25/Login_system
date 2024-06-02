@@ -1,0 +1,85 @@
+:root{
+    --main-color:#24353f;
+    --h-color:#17a2b8;
+}
+
+body{
+    background-color: var(--main-color);
+    font-family: "Titillium Web", sans-serif;
+}
+/* login & register style */
+.form{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.form h1{
+    color: var(--h-color);
+    font-size:2.4rem;
+    margin: auto;
+    margin-bottom: 30px;
+    width: 70%;
+}
+.form-control::placeholder{
+    color: rgb(187, 181, 181);
+    font-size: 17px;
+}
+.form .form-control{
+    background-color: transparent;
+    color: white;
+    box-shadow: 0 0 0 0;
+    width: 90%;
+}
+.form .btn{
+    color:var(--h-color);
+    font-size: 16px;
+    border: 1px solid var(--h-color);
+    width: 90%;
+    transition: all .5s;
+}
+.form .btn:hover{
+    background-color: var(--h-color);
+    color: white;
+}
+.form p{
+    color: white;
+    font-size: 18px;
+}
+.form p a{
+    color: white;   
+    margin: 0 0 0 4px;
+    text-decoration: none;
+}
+.form p a:hover{
+    text-decoration:underline; 
+}
+/* home page style */
+.nav-item .btn{
+    color:rgb(187, 181, 181);
+    font-size: 18px;
+    border: 1px solid #ffc107;
+    border-radius: 5px;
+}
+.nav-item .btn:hover{
+    color:white;
+    background-color: #ffc107;
+}
+.navbar {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.navbar-brand{
+    font-size: 22px;
+}
+.content{
+    height: 90vh;
+}
+.text{
+    width: 60%;
+    text-align: center;
+    padding: 50px 10px;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.text h1{
+    color: var(--h-color);
+    font-size: 40px;
+    width: 70%;
+    margin: auto;
+}
